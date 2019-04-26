@@ -1,0 +1,11 @@
+version: '2'
+services:
+    xtraocr-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/XtraOcr/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=XtraOcr
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

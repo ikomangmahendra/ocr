@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "XtraOcr",
+    "packageName": "io.xtra.ocr.application",
+    "packageFolder": "io/xtra/ocr/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "ZDUxNTBkMTRmNzFlZDVmMjEwMjNlODdiMmIwMzgxMDQ4MzY4NmE1ZDQ1MDM1MjExOWIwNmQ2YTFlMGNmNTE2OGFjZjQ4MWM3MTA1MWQzMTI1YWZhOTZmOWQ5Y2IxZjEwZjlmMWM2MDgyMjE4NDEwZDQyNDc0NDhlNjM3NWIzZTk=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "ikomangmahendra",
+  "repository-name": "ocr"
+}
