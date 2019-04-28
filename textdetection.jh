@@ -1,0 +1,4 @@
+entity TextDetection {
+    name String maxlength(50) required
+}
+
