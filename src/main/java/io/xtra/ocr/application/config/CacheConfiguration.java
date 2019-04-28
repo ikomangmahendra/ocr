@@ -38,6 +38,7 @@ public class CacheConfiguration {
             cm.createCache(io.xtra.ocr.application.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(io.xtra.ocr.application.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(io.xtra.ocr.application.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(io.xtra.ocr.application.domain.TextDetection.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -1,0 +1,24 @@
+{
+    "name": "TextDetection",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength",
+                "required"
+            ],
+            "fieldValidateRulesMaxlength": 50
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190428122205",
+    "entityTableName": "text_detection",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
